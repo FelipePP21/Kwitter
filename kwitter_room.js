@@ -8,11 +8,11 @@ const firebaseConfig = {
     appId: "1:448663814817:web:95c414b7413b7fcaca26e0"
   };
 
-firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
 user_name = localStorage.getItem("user_name");
 
-document.getElementById("user_name").innerHTML = "bem vindo(a)" + user_name + "!";
+document.getElementById("user_name").innerHTML = "Bem vindo(a) " + user_name + "!";
 
 function addRoom()
 {
