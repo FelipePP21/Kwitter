@@ -29,7 +29,7 @@ function send()
 function getData() 
 { 
   firebase.database().ref("/"+room_name).on('value', function(snapshot) { 
-    document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) { 
+    document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) {
       childKey  = childSnapshot.key; 
       childData = childSnapshot.val(); 
       if(childKey != "purpose") 
@@ -37,7 +37,7 @@ function getData()
         firebase_message_id = childKey;
         message_data = childData;
 
-        console.log(firebaseMessageId);
+        console.log(firebase_message_id);
         console.log(messageData);
         name - messageData['name'];
         message - messageData['message'];
