@@ -38,7 +38,7 @@ function getData()
         message_data = childData;
 
         console.log(firebase_message_id);
-        console.log(messageData);
+        console.log(message_data);
         name - messageData['name'];
         message - messageData['message'];
         like - messageData['like']
