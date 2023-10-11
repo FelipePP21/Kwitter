@@ -39,9 +39,12 @@ function getData()
 
         console.log(firebase_message_id);
         console.log(message_data);
-        name - messageData['name'];
+        /*name - messageData['name'];          
         message - messageData['message'];
-        like - messageData['like']
+        like - messageData['like']*/
+        name = message_data['name'];
+	    message = message_data['message'];
+        like = message_data['like'];
         nameWithTag = "<h4> "+ name +"<img class='user_tick' src= 'tick.png'></h4>";
         likeButton ="<button class='btn btn-warning' id="+firebaseMessageId+" value="+like+"onclick='updateLike(this.id)'>";
         spanWithTag = "<span class='glyphicon glyphicon-thumbs-up'>Like: "+ like +"</span></button><hr>";
