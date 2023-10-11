@@ -42,6 +42,7 @@ function getData()
         });
     });
 }
+
 getData();
 
 function redirectToRoomName(name)
