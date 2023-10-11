@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kwitter</title>
+    <head>
+        <title>Kwitter</title>
 
-    <link href=" https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap " 
-rel="stylesheet"><meta name="viewport" content="largura=largura do dispositivo, escala inicial=1">
+		<!--links Firebase-->
+		<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="stylesheet"
-href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css ">
+		<!--link do Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
-    <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js "></script>
+		<!--links de Bootstrap-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src=" https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js "
-></script>
-
-    <script src=" https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js "
-></script>
-
-    <script src=" https://www.gstatic.com/firebasejs/live/3.1/firebase.js "></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="kwitter_page.js"></script>
+		<!--link do arquivo style-->
+		<link rel="stylesheet" type="text/css" href="style.css">
 
     </head>
 
@@ -50,6 +44,7 @@ href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css ">
                 <button onclick="send()" class="btn btn-succes">Enviar</button>
             </div>
         </center>
+        <script src="kwitter_page.js"></script>
     </body>
 
 </html>
